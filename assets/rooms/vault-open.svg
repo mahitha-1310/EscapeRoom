@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Vault room with briefcase open">
+  <rect width="1600" height="900" fill="#2e3944"/>
+  <rect y="650" width="1600" height="250" fill="#111519"/>
+  <rect x="70" y="180" width="250" height="430" rx="14" fill="#38424b" stroke="#9db4c8" stroke-width="8"/>
+  <rect x="118" y="250" width="36" height="90" rx="10" fill="#74889a"/>
+  <rect x="628" y="488" width="360" height="170" rx="24" fill="#3c3f46" stroke="#a0afba" stroke-width="10"/>
+  <path d="M628 568 Q808 470 988 568" fill="#4c5158" stroke="#c3d4e0" stroke-width="8"/>
+  <rect x="752" y="570" width="96" height="40" rx="10" fill="#1a1d22"/>
+  <polygon points="800,614 834,648 766,648" fill="#151515" stroke="#d7dfec" stroke-width="4"/>
+  <rect x="1120" y="180" width="280" height="420" rx="22" fill="#47525c" stroke="#9fb7c8" stroke-width="10"/>
+  <circle cx="1260" cy="390" r="86" fill="#20262c" stroke="#c5d3de" stroke-width="10"/>
+  <circle cx="1260" cy="390" r="26" fill="#c5d3de"/>
+  <circle cx="940" cy="110" r="70" fill="#6ea0c8" opacity=".14"/>
+  <text x="800" y="88" fill="#e4edf5" font-family="Georgia,serif" font-size="42" text-anchor="middle" opacity=".72">Vault</text>
+</svg>

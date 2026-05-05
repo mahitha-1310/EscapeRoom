@@ -91,12 +91,12 @@ body {
 .stage {
   flex: 1;
   display: grid;
-  grid-template-columns: 1fr minmax(220px, 280px);
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 280px);
   gap: 1rem;
   align-items: stretch;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
   .stage {
     grid-template-columns: 1fr;
   }
@@ -108,17 +108,40 @@ body {
   overflow: hidden;
   border: 1px solid var(--border);
   box-shadow: var(--shadow);
-  min-height: 420px;
+  aspect-ratio: 16 / 9;
+  min-height: 0;
   background: var(--bg-panel);
+  isolation: isolate;
+  width: 100%;
+  max-width: 100%;
+}
+
+.stage > * {
+  min-width: 0;
 }
 
 .room-bg {
   position: absolute;
   inset: 0;
-  background-size: cover;
   background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   filter: saturate(0.92) contrast(1.05) brightness(0.88);
-  transition: background-image 0.5s ease, filter 0.5s ease;
+  transition: background 0.5s ease, filter 0.5s ease;
+}
+
+.room-art {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  display: block;
+  z-index: 1;
+  filter: saturate(0.95) contrast(1.02) brightness(0.9);
+  transform: none;
+  transition: transform 0.45s ease, filter 0.45s ease, opacity 0.25s ease;
+  pointer-events: none;
 }
 
 .room-bg::after {
@@ -136,7 +159,7 @@ body {
 .hotspots {
   position: absolute;
   inset: 0;
-  z-index: 2;
+  z-index: 3;
 }
 
 .hotspot {
@@ -144,15 +167,27 @@ body {
   border: 1px solid transparent;
   border-radius: 10px;
   cursor: pointer;
-  transition: border-color 0.2s, box-shadow 0.2s, background 0.2s;
-  background: rgba(255, 255, 255, 0.02);
+  transition: border-color 0.2s, box-shadow 0.2s, background 0.2s, transform 0.18s ease;
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(0.5px);
 }
 
 .hotspot:hover,
 .hotspot:focus-visible {
   border-color: var(--accent-dim);
   box-shadow: 0 0 0 1px var(--accent-dim), inset 0 0 24px rgba(201, 162, 39, 0.08);
+  transform: translateY(-1px);
   outline: none;
+}
+
+.hotspot.compatible:hover,
+.hotspot.compatible:focus-visible {
+  border-color: rgba(107, 191, 138, 0.85);
+  box-shadow: 0 0 0 1px rgba(107, 191, 138, 0.7), inset 0 0 28px rgba(107, 191, 138, 0.16);
+}
+
+.hotspot-item {
+  background: rgba(255, 248, 220, 0.08);
 }
 
 .hotspot-label {
@@ -166,6 +201,7 @@ body {
   color: rgba(232, 220, 198, 0.55);
   white-space: nowrap;
   pointer-events: none;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
 }
 
 .drop-floor {
@@ -208,6 +244,7 @@ body {
   line-height: 1.55;
   color: var(--text);
   box-shadow: var(--shadow);
+  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .message-panel.empty {
@@ -269,7 +306,7 @@ body {
   justify-content: center;
   gap: 0.15rem;
   cursor: pointer;
-  transition: border-color 0.2s, transform 0.15s, box-shadow 0.2s;
+  transition: border-color 0.2s, transform 0.15s, box-shadow 0.2s, background 0.2s;
   font-size: 0.62rem;
   text-align: center;
   padding: 0.25rem;
@@ -278,6 +315,7 @@ body {
 
 .inv-slot:hover {
   border-color: var(--accent-dim);
+  background: rgba(201, 162, 39, 0.08);
 }
 
 .inv-slot.selected {
@@ -364,8 +402,9 @@ body.cursor-use .room-frame {
 .zoom-media img {
   width: 100%;
   display: block;
-  max-height: 280px;
-  object-fit: cover;
+  max-height: 460px;
+  object-fit: contain;
+  background: #101013;
 }
 
 .zoom-text {

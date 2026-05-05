@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Notebook close-up">
+  <rect width="1200" height="800" fill="#1b1717"/>
+  <rect x="170" y="80" width="860" height="620" rx="24" fill="#efe4c1" stroke="#c5b489" stroke-width="10"/>
+  <rect x="230" y="140" width="740" height="500" rx="10" fill="#f7efd8"/>
+  <g stroke="#d2c2a1" stroke-width="4">
+    <line x1="260" y1="220" x2="940" y2="220"/>
+    <line x1="260" y1="290" x2="940" y2="290"/>
+    <line x1="260" y1="360" x2="940" y2="360"/>
+    <line x1="260" y1="430" x2="940" y2="430"/>
+  </g>
+  <text x="320" y="210" fill="#6a5840" font-family="Georgia,serif" font-size="42">cabinet code</text>
+  <text x="690" y="210" fill="#8b2c2c" font-family="Georgia,serif" font-size="54">1-8-9</text>
+  <text x="320" y="350" fill="#6a5840" font-family="Georgia,serif" font-size="42">archive safe</text>
+  <text x="700" y="350" fill="#8b2c2c" font-family="Georgia,serif" font-size="54">4-7-2</text>
+  <text x="600" y="740" fill="#f2e5cc" font-family="Georgia,serif" font-size="36" text-anchor="middle">Notebook Clue</text>
+</svg>

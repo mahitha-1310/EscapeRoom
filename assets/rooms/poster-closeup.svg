@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Workshop diagram close-up">
+  <rect width="1200" height="800" fill="#1e1d1b"/>
+  <rect x="190" y="90" width="820" height="600" rx="20" fill="#dfd1ad" stroke="#65584a" stroke-width="14"/>
+  <g stroke="#5b5148" stroke-width="12" fill="none">
+    <line x1="320" y1="240" x2="860" y2="240"/>
+    <line x1="320" y1="380" x2="590" y2="380"/>
+    <line x1="590" y1="380" x2="760" y2="520"/>
+  </g>
+  <g fill="#e08c35">
+    <circle cx="420" cy="240" r="26"/>
+    <circle cx="590" cy="380" r="26"/>
+    <circle cx="760" cy="520" r="26"/>
+  </g>
+  <text x="350" y="170" fill="#514537" font-family="Georgia,serif" font-size="42">breaker sequence</text>
+  <text x="600" y="650" fill="#8b3f15" font-family="Georgia,serif" font-size="64" text-anchor="middle">1 - 0 - 1</text>
+</svg>

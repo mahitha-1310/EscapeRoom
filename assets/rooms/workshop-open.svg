@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Workshop room with panel open">
+  <rect width="1600" height="900" fill="#36342f"/>
+  <rect y="640" width="1600" height="260" fill="#1a1b1d"/>
+  <rect x="70" y="180" width="250" height="430" rx="14" fill="#47433f" stroke="#ab8b52" stroke-width="8"/>
+  <rect x="118" y="250" width="36" height="90" rx="10" fill="#8c7347"/>
+  <rect x="1130" y="110" width="280" height="190" rx="12" fill="#d6c59c" stroke="#54463a" stroke-width="12"/>
+  <g stroke="#50453d" stroke-width="10" fill="none">
+    <line x1="1180" y1="154" x2="1340" y2="154"/>
+    <line x1="1180" y1="204" x2="1300" y2="204"/>
+    <line x1="1300" y1="204" x2="1340" y2="249"/>
+    <line x1="1180" y1="249" x2="1260" y2="249"/>
+  </g>
+  <rect x="320" y="240" width="230" height="300" rx="16" fill="#2d3136" stroke="#85919b" stroke-width="10"/>
+  <rect x="368" y="242" width="134" height="22" rx="6" fill="#2d3136"/>
+  <rect x="390" y="430" width="92" height="38" rx="8" fill="#e3d7bc" stroke="#f0b25b" stroke-width="4"/>
+  <g fill="#f0b25b">
+    <circle cx="398" cy="450" r="16"/>
+    <circle cx="438" cy="450" r="16"/>
+    <circle cx="478" cy="450" r="16"/>
+  </g>
+  <rect x="690" y="270" width="220" height="150" rx="18" fill="#4a3727"/>
+  <rect x="730" y="312" width="140" height="70" rx="10" fill="#6c5b49"/>
+  <circle cx="1120" cy="108" r="76" fill="#f4a24e" opacity=".18"/>
+  <text x="800" y="88" fill="#ede6d6" font-family="Georgia,serif" font-size="42" text-anchor="middle" opacity=".72">Workshop</text>
+</svg>

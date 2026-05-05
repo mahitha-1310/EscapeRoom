@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Library room">
+  <defs>
+    <linearGradient id="libwall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a3c52"/>
+      <stop offset="100%" stop-color="#161c24"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#libwall)"/>
+  <rect y="650" width="1600" height="250" fill="#171310"/>
+  <rect x="70" y="180" width="250" height="430" rx="14" fill="#433126" stroke="#d7b36f" stroke-width="8"/>
+  <rect x="120" y="240" width="32" height="92" rx="10" fill="#85633d"/>
+  <rect x="420" y="130" width="980" height="470" rx="20" fill="#3f2f24" stroke="#7a6045" stroke-width="8"/>
+  <g fill="#8e6b3d">
+    <rect x="470" y="180" width="880" height="36"/>
+    <rect x="470" y="300" width="880" height="36"/>
+    <rect x="470" y="420" width="880" height="36"/>
+  </g>
+  <g>
+    <rect x="940" y="120" width="420" height="230" rx="10" fill="#574235" stroke="#d7c3a0" stroke-width="8"/>
+    <rect x="980" y="158" width="340" height="154" rx="6" fill="#8f5f56"/>
+    <circle cx="1040" cy="210" r="28" fill="#d9b468"/>
+    <polygon points="1130,150 1160,205 1100,205" fill="#f0e6cf"/>
+    <rect x="1198" y="188" width="56" height="32" fill="#f0e6cf"/>
+    <circle cx="1280" cy="256" r="26" fill="#f0e6cf"/>
+  </g>
+  <rect x="420" y="540" width="300" height="170" rx="18" fill="#5b412d" stroke="#caa35d" stroke-width="8"/>
+  <rect x="460" y="588" width="220" height="78" rx="10" fill="#2a2017"/>
+  <text x="800" y="88" fill="#ecdfc7" font-family="Georgia,serif" font-size="42" text-anchor="middle" opacity=".72">Library</text>
+</svg>

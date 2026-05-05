@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Vault core room">
+  <rect width="1600" height="900" fill="#142823"/>
+  <rect y="650" width="1600" height="250" fill="#0d1514"/>
+  <rect x="70" y="180" width="250" height="430" rx="14" fill="#2a3d39" stroke="#72b39a" stroke-width="8"/>
+  <rect x="118" y="250" width="36" height="90" rx="10" fill="#5f9884"/>
+  <rect x="540" y="360" width="520" height="250" rx="26" fill="#203631" stroke="#81d0ad" stroke-width="10"/>
+  <rect x="620" y="420" width="360" height="110" rx="14" fill="#0f1716"/>
+  <g fill="#7ef0b9">
+    <rect x="660" y="450" width="60" height="24" rx="6"/>
+    <rect x="740" y="450" width="60" height="24" rx="6"/>
+    <rect x="820" y="450" width="60" height="24" rx="6"/>
+    <rect x="900" y="450" width="40" height="24" rx="6"/>
+  </g>
+  <circle cx="960" cy="130" r="86" fill="#6dd39f" opacity=".16"/>
+  <text x="800" y="88" fill="#dbf5e7" font-family="Georgia,serif" font-size="42" text-anchor="middle" opacity=".74">Vault Core</text>
+</svg>

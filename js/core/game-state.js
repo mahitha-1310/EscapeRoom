@@ -5,7 +5,10 @@ export class GameState {
 
   reset() {
     this.roomIndex = 0;
+    this.maxRoomIndexReached = 0;
     this.selectedItemId = null;
+    this.activeCombo = null;
+    this.comboInput = "";
     this.inventory = [];
     this.droppedByRoom = { 0: [], 1: [], 2: [], 3: [], 4: [] };
     this.flags = {

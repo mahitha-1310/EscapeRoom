@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Painting close-up">
+  <rect width="1200" height="800" fill="#181a20"/>
+  <rect x="170" y="80" width="860" height="520" rx="24" fill="#66483d" stroke="#e3d1ab" stroke-width="16"/>
+  <rect x="230" y="140" width="740" height="400" rx="12" fill="#925d57"/>
+  <polygon points="360,250 430,370 290,370" fill="#f4e8ca"/>
+  <rect x="535" y="250" width="140" height="140" fill="#f4e8ca"/>
+  <circle cx="840" cy="320" r="72" fill="#f4e8ca"/>
+  <rect x="330" y="640" width="540" height="76" rx="14" fill="#efe4c1"/>
+  <text x="600" y="690" fill="#5d4938" font-family="Georgia,serif" font-size="48" text-anchor="middle">3-3-3</text>
+  <text x="600" y="750" fill="#efe4c1" font-family="Georgia,serif" font-size="34" text-anchor="middle">Painting Clue</text>
+</svg>

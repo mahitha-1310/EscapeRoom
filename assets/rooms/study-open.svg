@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Study room with cabinet open">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4b3728"/>
+      <stop offset="100%" stop-color="#1a1414"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2a2018"/>
+      <stop offset="100%" stop-color="#151213"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#wall)"/>
+  <rect y="620" width="1600" height="280" fill="url(#floor)"/>
+  <rect x="70" y="180" width="260" height="420" rx="12" fill="#3a2c23" stroke="#a18354" stroke-width="8"/>
+  <rect x="120" y="240" width="36" height="84" rx="10" fill="#6f5a3d"/>
+  <circle cx="250" cy="390" r="16" fill="#caa35d"/>
+  <rect x="930" y="250" width="340" height="320" rx="18" fill="#4a3729" stroke="#caa35d" stroke-width="8"/>
+  <rect x="980" y="310" width="240" height="180" rx="12" fill="#251b16" stroke="#8f774f" stroke-width="6"/>
+  <rect x="1010" y="282" width="200" height="30" rx="10" fill="#4a3729"/>
+  <circle cx="1135" cy="386" r="15" fill="#d0ae61"/>
+  <rect x="1090" y="470" width="88" height="38" rx="8" fill="#efe4c1" stroke="#d0ae61" stroke-width="4"/>
+  <rect x="310" y="455" width="270" height="110" rx="14" fill="#5c4330"/>
+  <rect x="346" y="500" width="118" height="58" rx="8" fill="#e4d7b1"/>
+  <rect x="366" y="516" width="78" height="24" rx="4" fill="#cdbd90"/>
+  <circle cx="520" cy="150" r="90" fill="#f1c56f" opacity=".18"/>
+  <text x="800" y="96" fill="#f2e8d2" font-family="Georgia,serif" font-size="42" text-anchor="middle" opacity=".7">Study</text>
+</svg>

@@ -2,8 +2,7 @@ Escape Room Game (Simple)
 
 How to run:
 1) Open Terminal
-2) Go to this folder:
-   cd "/Users/mahitharammohan/Desktop/User Interface"
+2) Go to this folder
 3) Start server:
    python3 -m http.server 8081
 4) Open browser:

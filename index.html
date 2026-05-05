@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CS5774 — Core Interaction System</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+  <div id="app">
+    <header class="top-bar">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">◈</span>
+        <div>
+          <h1>Chamberline</h1>
+          <p class="subtitle">Five rooms · Point-and-click prototype</p>
+        </div>
+      </div>
+      <div class="room-pill" id="room-label">Room</div>
+    </header>
+
+    <main class="stage">
+      <div class="room-frame" id="room-frame">
+        <div class="room-bg" id="room-bg" role="img" aria-label="Current room"></div>
+        <div class="hotspots" id="hotspots"></div>
+        <div class="drop-floor" id="drop-floor" title="Drop selected item into the room">
+          <span>Drop zone — select an item, then click here</span>
+        </div>
+      </div>
+
+      <aside class="hud">
+        <div class="message-panel" id="message-panel" role="status" aria-live="polite"></div>
+        <p class="hint-line">Click objects to act · Select an item, then click a target · Drop: select item, click drop zone</p>
+      </aside>
+    </main>
+
+    <footer class="inventory-dock">
+      <div class="dock-head">
+        <span class="dock-title">Inventory</span>
+        <span class="dock-meta" id="inventory-count">0 / 8</span>
+      </div>
+      <div class="inventory-slots" id="inventory-slots"></div>
+    </footer>
+  </div>
+
+  <div class="overlay hidden" id="overlay-zoom">
+    <div class="overlay-card">
+      <button type="button" class="btn-close" id="btn-close-zoom" aria-label="Close">×</button>
+      <div class="zoom-media" id="zoom-media"></div>
+      <p class="zoom-text" id="zoom-text"></p>
+    </div>
+  </div>
+
+  <div class="overlay hidden" id="overlay-combo">
+    <div class="overlay-card combo-card">
+      <button type="button" class="btn-close" id="btn-close-combo" aria-label="Close">×</button>
+      <h3 id="combo-title">Enter code</h3>
+      <div class="combo-display" id="combo-display">— — —</div>
+      <div class="combo-pad" id="combo-pad"></div>
+      <div class="combo-actions">
+        <button type="button" class="btn-ghost" id="combo-clear">Clear</button>
+        <button type="button" class="btn-primary" id="combo-submit">Try</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="overlay hidden" id="overlay-win">
+    <div class="overlay-card win-card">
+      <h2>Congratulations on your escape!</h2>
+      <p>You cleared all five rooms.</p>
+      <button type="button" class="btn-primary" id="btn-restart">Play again</button>
+    </div>
+  </div>
+
+  <script type="module" src="js/app/main.js"></script>
+</body>
+</html>
